@@ -14,12 +14,15 @@ body {
   height: 599px;
   background-color: #15273f;
   border-radius: 10px;
+  margin-left: 800px;
+  margin-top: 250px;
 }
 
-img {
+.img1 {
   width: 300px;
   height: 300px;
   margin: 25px;
+  border-radius: 10px;
 }
 .equi {
   color: #edf4fe;
@@ -29,9 +32,74 @@ img {
 
 .our {
   padding-left: 25px;
-  color: #edf4fe;
+  color: #88acd7;
+  font-size: large;
+  margin-bottom: 20px;
+  opacity: 60%;
 }
 
 .both {
   padding-left: 25px;
+  display: flex;
+}
+
+.days {
+  padding-left: 125px;
+  color: #88acd7;
+}
+
+.eth {
+  color: #14fdfa;
+}
+
+.fa-clock {
+  padding-right: 5px;
+}
+
+.fa-ethereum {
+  padding-right: 5px;
+}
+
+.img2 {
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-radius: 100px;
+  border-color: white;
+}
+
+.profile {
+  display: flex;
+}
+
+hr {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 25px;
+  color: #88acd7;
+  margin-bottom: 20px;
+  opacity: 50%;
+}
+
+.profile {
+  padding-left: 20px;
+  border-color: white;
+}
+
+.jules {
+  color: #88acd7;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.wy {
+  color: white;
+}
+
+h2:hover {
+  color: #14fdfa;
+}
+
+.wy:hover {
+  color: #14fdfa;
 }
