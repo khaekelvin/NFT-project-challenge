@@ -14,8 +14,8 @@ body {
   height: 599px;
   background-color: #15273f;
   border-radius: 10px;
-  margin-left: 800px;
-  margin-top: 250px;
+  /* margin-left: 800px;
+  margin-top: 250px; */
 }
 
 .img1 {
@@ -104,4 +104,11 @@ h2:hover {
 .wy:hover {
   color: #14fdfa;
   cursor: pointer;
+}
+
+.pos {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
